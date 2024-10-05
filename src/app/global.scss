@@ -1,0 +1,230 @@
+:root,
+body {
+
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+
+	line-height: 1.5;
+
+}
+
+main {
+
+	width: 55rem;
+	margin: 0 auto;
+
+}
+
+h1,
+h2,
+h3,
+q h4,
+h5,
+h6 {
+
+	font-weight: normal;
+
+}
+
+h1 {
+
+	font-size: 28pt;
+	text-align: center;
+
+	border-bottom: solid 1px #d6e3ed;
+	padding-bottom: .2em;
+
+}
+
+h2 {
+
+	font-size: 24pt;
+
+}
+
+h3 {
+
+	font-size: 20pt;
+
+}
+
+h4 {
+
+	font-size: 16pt;
+
+}
+
+h5 {
+
+	font-size: 14pt;
+
+}
+
+h6 {
+
+	font-size: 12pt;
+
+}
+
+p {
+
+	font-size: 15pt;
+
+}
+
+table {
+
+	border-collapse: collapse;
+	width: 100%;
+
+	margin: 1rem 0;
+
+	td,
+	th {
+
+		border: 1px solid #000;
+		padding: 10px;
+		text-align: center;
+
+	}
+
+	th {
+
+		font-weight: bold;
+
+	}
+
+}
+
+li {
+
+	font-size: 14pt;
+
+}
+
+a {
+
+	text-decoration: none;
+	color: #000;
+
+}
+
+header.header {
+
+	margin: 1rem 1rem;
+
+	div {
+
+		font-size: 20pt;
+
+		a {
+
+			color: #000;
+
+		}
+
+	}
+
+	a {
+
+		font-size: 16pt;
+
+		padding: 0 1rem;
+
+	}
+
+	* {
+
+		display: inline-block;
+
+	}
+
+}
+
+input,
+label,
+button,
+textarea,
+select {
+
+	font-size: 15pt;
+	padding: .5rem 1rem;
+	margin: .5rem 0;
+	display: block;
+	width: 100%;
+
+	&[type="submit"] {
+
+		width: 100%;
+		background-color: #007bff;
+		color: #fff;
+		border: none;
+
+	}
+
+	&[type="checkbox"] {
+
+		display: inline;
+		margin: 0;
+
+	}
+
+}
+
+textarea {
+
+	height: 30rem;
+	width: max(50%, 20rem);
+
+}
+
+div.flush {
+
+	height: 3em;
+	width: 100%;
+
+	line-height: 3em;
+	text-align: center;
+
+	&.success {
+
+		background-color: #d4edda;
+		color: #155724;
+
+	}
+
+}
+
+div.editor {
+
+	height: max-content;
+	display: flex;
+
+	height: max-content;
+
+	textarea#editor-value {
+
+		width: 50%;
+		border: none;
+		height: auto;
+		resize: none;
+		outline: none;
+		font-family: var(--font-serif);
+
+	}
+
+	div#editor-view {
+
+		width: 50%;
+
+	}
+
+}
+
+a {
+
+	padding-right: 1rem;
+
+}

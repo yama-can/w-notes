@@ -1,0 +1,26 @@
+{
+  "name": "notes.w-pcp.dev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.3",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "zenn-content-css": "^0.1.157",
+    "zenn-embed-elements": "^0.1.157",
+    "zenn-markdown-html": "^0.1.157"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
